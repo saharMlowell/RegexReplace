@@ -9,17 +9,17 @@ performing string replacement for each of the qualified files under a starting d
  *  File naming pattern - UNIX wild-card filename syntax, 
  
 # Sample Input / Output 
-java RegexTextReplacementInFiles sample-dir '(ab+c+)' REPLACEMENT '*.txt'
-processed 37 files. Replaced to "REPLACEMENT":
-abbc: 23 occurrences
-abbbc: 16 occurrences
-abc: 3 occurrences
-...
-$ ls sample_dir
-sample1.doc
-sample1.txt
-sample1.txt.processed
-sample2.doc
-sample2.txt
-sample2.txt.processed
-...
+java RegexTextReplacementInFiles sample-dir '(ab+c+)' REPLACEMENT '*.txt' <br />
+processed 37 files. Replaced to "REPLACEMENT": <br />
+abbc: 23 occurrences <br />
+abbbc: 16 occurrences <br />
+abc: 3 occurrences <br />
+... <br />
+$ ls sample_dir <br />
+sample1.doc <br />
+sample1.txt <br />
+sample1.txt.processed <br />
+sample2.doc <br />
+sample2.txt <br />
+sample2.txt.processed <br />
+... <br />
